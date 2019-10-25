@@ -1,4 +1,4 @@
-# Lab 1 - Install Prerequisites
+# Install Prerequisites
 
 ## Access to the IBM Cloud
 
