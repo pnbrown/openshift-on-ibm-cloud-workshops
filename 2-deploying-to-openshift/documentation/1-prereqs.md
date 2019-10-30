@@ -16,9 +16,9 @@ Several other tools are needed. There are different options to install these too
 
 ---
 
-### Tools - Option 1: Prebuilt Image with local Code
+### Tools - Option 1: Prebuilt Image with Local Code
 
-There is an image on DockerHub with all required tools. In order to use local IDEs and editors to modify code and configuraton files a Docker volume is used. This option  works only for Mac and Linux.
+There is an image on DockerHub with all required tools. In order to use local IDEs and editors to modify code and configuraton files a Docker volume is used. This option works only for Mac and Linux.
 
 #### Step 1: Run these commands in a terminal
 
@@ -47,14 +47,14 @@ There is an image on DockerHub with all required tools. This option works for Ma
 #### Step 1: Run this command in a terminal
 
 ```
-$ docker run -ti nheidloff/openshift-workshop-tools:v1
+$ docker run -it nheidloff/openshift-workshop-tools:v1
 ```
 
 #### Step 2: After the container has been started, run these commands inside your running Docker image to get the lastest version of the workshop:
 
 ```
 root@3f46c41f7303:/usr/local/bin# cd /
-root@3f46c41f7303:/usr/local/bin# git clone https://github.com/nheidloff/root@3f46c41f7303:/usr/local/bin# openshift-on-ibm-cloud-workshops.git
+root@3f46c41f7303:/usr/local/bin# git clone https://github.com/nheidloff/openshift-on-ibm-cloud-workshops.git
 root@3f46c41f7303:/usr/local/bin# cd openshift-on-ibm-cloud-workshops
 root@3f46c41f7303:/usr/local/bin# ROOT_FOLDER=$(pwd)
 ```
