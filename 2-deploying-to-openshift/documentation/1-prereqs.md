@@ -2,7 +2,7 @@
 
 ## Access to the IBM Cloud
 
-An [IBM Cloud account](https://cloud.ibm.com/registration) is needed.
+An [IBM Cloud account](https://ibm.biz/BdzQDd) is needed.
 
 
 We will use the [OpenShift on IBM Cloud](https://cloud.ibm.com/kubernetes/catalog/openshiftcluster) service on IBM Cloud in this hands-on workshop.
